@@ -50,6 +50,7 @@ if __name__ == '__main__':
     proces2.join()
 
     datetime2 = datetime.datetime.now()
-    print(f"\nРозрахунок в розділений на два процеси:")
+    print(f"\nРозрахунок розділений на два процеси:")
     print(f"Кількість щасливих квитків: {len(numbers2)}")
     print(f"Час розрахунку склав: {datetime2 - datetime1}")
+
